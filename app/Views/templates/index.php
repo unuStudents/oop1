@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="tugas oop semester 7">
+    <meta name="author" content="nanda khoirul akmal">
 
     <title>Semester 5 | <?= $title ?></title>
 
@@ -45,7 +45,7 @@
             <li class="nav-item active">
                 <a class="nav-link" href="<?= site_url('/'); ?>">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span>Home</span></a>
             </li>
 
             <!-- Divider -->
@@ -74,7 +74,7 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseKomik"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Komik</span>
+                    <span>Komik Juki</span>
                 </a>
                 <div id="collapseKomik" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
@@ -85,31 +85,26 @@
                     </div>
                 </div>
             </li>
-
+            
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-            <!-- OOP5 -->
+            <!-- OOP3 -->
             <li class="nav-item active">
-                <a class="nav-link" href="<?= site_url('/oop5'); ?>">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>OOP5</span></a>
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBuku"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Buku</span>
+                </a>
+                <div id="collapseBuku" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Pilihan:</h6>
+                        <a class="collapse-item" href="<?= site_url('/oop5'); ?>">OOP5</a>
+                        <a class="collapse-item" href="<?= site_url('/oop6'); ?>">OOP6</a>
+                        <a class="collapse-item" href="<?= site_url('/oop7'); ?>">OOP7</a>
+                    </div>
+                </div>
             </li>
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
-            <!-- OOP6 -->
-            <li class="nav-item active">
-                <a class="nav-link" href="<?= site_url('/oop6'); ?>">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>OOP6</span></a>
-            </li>
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
-            <!-- OOP7 -->
-            <li class="nav-item active">
-                <a class="nav-link" href="<?= site_url('/oop7'); ?>">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>OOP7</span></a>
-            </li>
+            
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
             <!-- OOP8 -->
@@ -118,22 +113,25 @@
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>OOP8</span></a>
             </li>
+
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-            <!-- OOP Dasar Manusia -->
+            <!-- OOP3 -->
             <li class="nav-item active">
-                <a class="nav-link" href="<?= site_url('/oopdm'); ?>">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>OOP DM</span></a>
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseSomad"
+                    aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Somad</span>
+                </a>
+                <div id="collapseSomad" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Pilihan:</h6>
+                        <a class="collapse-item" href="<?= site_url('/oopdm'); ?>">OOP DM</a>
+                        <a class="collapse-item" href="<?= site_url('/oopdmi'); ?>">OOP DMI</a>
+                    </div>
+                </div>
             </li>
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
-            <!-- OOP Dasar Manusia Inheritance -->
-            <li class="nav-item active">
-                <a class="nav-link" href="<?= site_url('/oopdmi'); ?>">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>OOP DMI</span></a>
-            </li>
+
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
             <!-- OOP Dasar Manusia Inheritance -->
@@ -148,7 +146,7 @@
             </div> -->
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
@@ -161,10 +159,10 @@
                         <a class="collapse-item" href="cards.html">Cards</a>
                     </div>
                 </div>
-            </li>
+            </li> -->
 
             <!-- Nav Item - Utilities Collapse Menu -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-fw fa-wrench"></i>
@@ -180,7 +178,7 @@
                         <a class="collapse-item" href="utilities-other.html">Other</a>
                     </div>
                 </div>
-            </li>
+            </li> -->
 
             <!-- Divider -->
             <!-- <hr class="sidebar-divider"> -->
@@ -191,7 +189,7 @@
             </div> -->
 
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true"
                     aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
@@ -210,7 +208,7 @@
                         <a class="collapse-item active" href="blank.html">Blank Page</a>
                     </div>
                 </div>
-            </li>
+            </li> -->
 
             <!-- Nav Item - Charts -->
             <!-- <li class="nav-item">

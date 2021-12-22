@@ -79,21 +79,21 @@ class Home extends BaseController
     public function oopdm()
     {
         $data = [
-            "title" => "OOPDM"
+            "title" => "OOP Dasar Manusia"
         ];
         return view('oop-hnf/OOP_Dasar_Manusia', $data);
     }
     public function oopdmi()
     {
         $data = [
-            "title" => "OOPDMI"
+            "title" => "OOP Dasar Manusia Inheritance"
         ];
         return view('oop-hnf/OOP_Dasar_Manusia_Inheritance', $data);
     }
     public function oopbs1()
     {
         $data = [
-            "title" => "OOPBS1"
+            "title" => "OOP Buatan Sendiri 1"
         ];
         return view('oop-sendiri/oopSendiri1', $data);
     }
