@@ -44,6 +44,9 @@ $routes->get('/oop8', 'Home::oop8');
 $routes->get('/oopdm', 'Home::oopdm');
 $routes->get('/oopdmi', 'Home::oopdmi');
 $routes->get('/oopbs1', 'Home::oopbs1');
+$routes->get('/oopbs2', 'Home::oopbs2');
+$routes->get('/oopbs3', 'Home::oopbs3');
+$routes->get('/oopbs4', 'Home::oopbs4');
 
 /*
  * --------------------------------------------------------------------

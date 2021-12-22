@@ -97,4 +97,25 @@ class Home extends BaseController
         ];
         return view('oop-sendiri/oopSendiri1', $data);
     }
+    public function oopbs2()
+    {
+        $data = [
+            "title" => "OOP Buatan Sendiri 2"
+        ];
+        return view('oop-sendiri/oopSendiri2', $data);
+    }
+    public function oopbs3()
+    {
+        $data = [
+            "title" => "OOP Buatan Sendiri 3"
+        ];
+        return view('oop-sendiri/oopSendiri3', $data);
+    }
+    public function oopbs4()
+    {
+        $data = [
+            "title" => "OOP Buatan Sendiri 4"
+        ];
+        return view('oop-sendiri/oopSendiri4', $data);
+    }
 }
