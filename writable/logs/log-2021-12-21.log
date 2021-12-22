@@ -1,0 +1,85 @@
+CRITICAL - 2021-12-21 18:35:09 --> Invalid file: 000.php
+#0 /home/mafia/Downloads/Compressed/oop-tugas1/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('000.php')
+#1 /home/mafia/Downloads/Compressed/oop-tugas1/system/Common.php(1097): CodeIgniter\View\View->render('000', Array, true)
+#2 /home/mafia/Downloads/Compressed/oop-tugas1/app/Controllers/Home.php(14): view('000', Array)
+#3 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#4 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mafia/Downloads/Compressed/oop-tugas1/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/mafia/Downloads/Compressed/oop-tugas1/system/Commands/Server/rewrite.php(43): require_once('/home/mafia/Dow...')
+#8 {main}
+CRITICAL - 2021-12-21 18:36:33 --> require_once(models/Buku.php): Failed to open stream: No such file or directory
+#0 /home/mafia/Downloads/Compressed/oop-tugas1/app/Views/oop-hnf/OOP3_Inheritance_2.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(mo...', '/home/mafia/Dow...', 7)
+#1 /home/mafia/Downloads/Compressed/oop-tugas1/app/Views/oop-hnf/OOP3_Inheritance_2.php(7): require_once()
+#2 /home/mafia/Downloads/Compressed/oop-tugas1/system/View/View.php(214): include('/home/mafia/Dow...')
+#3 /home/mafia/Downloads/Compressed/oop-tugas1/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/mafia/Downloads/Compressed/oop-tugas1/system/Common.php(1097): CodeIgniter\View\View->render('oop-hnf/OOP3_In...', Array, true)
+#5 /home/mafia/Downloads/Compressed/oop-tugas1/app/Controllers/Home.php(42): view('oop-hnf/OOP3_In...', Array)
+#6 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(824): App\Controllers\Home->oop32()
+#7 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/mafia/Downloads/Compressed/oop-tugas1/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /home/mafia/Downloads/Compressed/oop-tugas1/system/Commands/Server/rewrite.php(43): require_once('/home/mafia/Dow...')
+#11 {main}
+CRITICAL - 2021-12-21 18:41:41 --> Invalid file: templae/index.php
+#0 /home/mafia/Downloads/Compressed/oop-tugas1/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templae/index.p...')
+#1 /home/mafia/Downloads/Compressed/oop-tugas1/system/View/View.php(230): CodeIgniter\View\View->render('templae/index', Array, true)
+#2 /home/mafia/Downloads/Compressed/oop-tugas1/system/Common.php(1097): CodeIgniter\View\View->render('oop-sendiri/oop...', Array, true)
+#3 /home/mafia/Downloads/Compressed/oop-tugas1/app/Controllers/Home.php(98): view('oop-sendiri/oop...', Array)
+#4 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(824): App\Controllers\Home->oopbs1()
+#5 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/mafia/Downloads/Compressed/oop-tugas1/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/mafia/Downloads/Compressed/oop-tugas1/system/Commands/Server/rewrite.php(43): require_once('/home/mafia/Dow...')
+#9 {main}
+CRITICAL - 2021-12-21 18:41:43 --> Invalid file: templae/index.php
+#0 /home/mafia/Downloads/Compressed/oop-tugas1/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templae/index.p...')
+#1 /home/mafia/Downloads/Compressed/oop-tugas1/system/View/View.php(230): CodeIgniter\View\View->render('templae/index', Array, true)
+#2 /home/mafia/Downloads/Compressed/oop-tugas1/system/Common.php(1097): CodeIgniter\View\View->render('oop-sendiri/oop...', Array, true)
+#3 /home/mafia/Downloads/Compressed/oop-tugas1/app/Controllers/Home.php(98): view('oop-sendiri/oop...', Array)
+#4 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(824): App\Controllers\Home->oopbs1()
+#5 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/mafia/Downloads/Compressed/oop-tugas1/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/mafia/Downloads/Compressed/oop-tugas1/system/Commands/Server/rewrite.php(43): require_once('/home/mafia/Dow...')
+#9 {main}
+CRITICAL - 2021-12-21 19:03:57 --> syntax error, unexpected token "<", expecting end of file
+#0 /home/mafia/Downloads/Compressed/oop-tugas1/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mafia/Downloads/Compressed/oop-tugas1/system/Common.php(1097): CodeIgniter\View\View->render('oop-sendiri/oop...', Array, true)
+#2 /home/mafia/Downloads/Compressed/oop-tugas1/app/Controllers/Home.php(98): view('oop-sendiri/oop...', Array)
+#3 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(824): App\Controllers\Home->oopbs1()
+#4 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mafia/Downloads/Compressed/oop-tugas1/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/mafia/Downloads/Compressed/oop-tugas1/system/Commands/Server/rewrite.php(43): require_once('/home/mafia/Dow...')
+#8 {main}
+CRITICAL - 2021-12-21 19:04:40 --> syntax error, unexpected token "<", expecting end of file
+#0 /home/mafia/Downloads/Compressed/oop-tugas1/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mafia/Downloads/Compressed/oop-tugas1/system/Common.php(1097): CodeIgniter\View\View->render('oop-sendiri/oop...', Array, true)
+#2 /home/mafia/Downloads/Compressed/oop-tugas1/app/Controllers/Home.php(98): view('oop-sendiri/oop...', Array)
+#3 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(824): App\Controllers\Home->oopbs1()
+#4 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mafia/Downloads/Compressed/oop-tugas1/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/mafia/Downloads/Compressed/oop-tugas1/system/Commands/Server/rewrite.php(43): require_once('/home/mafia/Dow...')
+#8 {main}
+CRITICAL - 2021-12-21 19:14:53 --> syntax error, unexpected token "<", expecting end of file
+#0 /home/mafia/Downloads/Compressed/oop-tugas1/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mafia/Downloads/Compressed/oop-tugas1/system/Common.php(1097): CodeIgniter\View\View->render('oop-sendiri/oop...', Array, true)
+#2 /home/mafia/Downloads/Compressed/oop-tugas1/app/Controllers/Home.php(98): view('oop-sendiri/oop...', Array)
+#3 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(824): App\Controllers\Home->oopbs1()
+#4 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mafia/Downloads/Compressed/oop-tugas1/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/mafia/Downloads/Compressed/oop-tugas1/system/Commands/Server/rewrite.php(43): require_once('/home/mafia/Dow...')
+#8 {main}
+CRITICAL - 2021-12-21 19:19:16 --> syntax error, unexpected token "<", expecting end of file
+#0 /home/mafia/Downloads/Compressed/oop-tugas1/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/mafia/Downloads/Compressed/oop-tugas1/system/Common.php(1097): CodeIgniter\View\View->render('oop-sendiri/oop...', Array, true)
+#2 /home/mafia/Downloads/Compressed/oop-tugas1/app/Controllers/Home.php(98): view('oop-sendiri/oop...', Array)
+#3 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(824): App\Controllers\Home->oopbs1()
+#4 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/mafia/Downloads/Compressed/oop-tugas1/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/mafia/Downloads/Compressed/oop-tugas1/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/mafia/Downloads/Compressed/oop-tugas1/system/Commands/Server/rewrite.php(43): require_once('/home/mafia/Dow...')
+#8 {main}

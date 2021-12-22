@@ -43,6 +43,7 @@ $routes->get('/oop7', 'Home::oop7');
 $routes->get('/oop8', 'Home::oop8');
 $routes->get('/oopdm', 'Home::oopdm');
 $routes->get('/oopdmi', 'Home::oopdmi');
+$routes->get('/oopbs1', 'Home::oopbs1');
 
 /*
  * --------------------------------------------------------------------
